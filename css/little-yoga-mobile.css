@@ -3,7 +3,17 @@
 
 
 body, html {
-	font-size:200%;
+	font-size:130%;
+}
+.ui-btn {
+	font-size:100%;
+}
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+	height:40px;
+	width:40px;
+}
+.ui-btn-icon-notext:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after {
+	margin-left:-19px;
 }
 
 .body-content {
