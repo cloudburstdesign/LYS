@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body, html {
+	font-size:22px;
+}
+
+.body-content {
+	background:url(../images/content-bg.png) repeat 0 0;
+}
+
+.about-content {
+	background:url(../images/tree-bg.png) repeat top center;
+	color:#FFF;
+	text-shadow:1px 1px 0 #555;
+	min-height:400px;
+}
+
+.about-content a:link {
+	color:#FFF;	
+}
+
+.footer h4 a.whitelink {
+	color:#FFF;
+	text-decoration:none;
+}
+
+h3.ui-li-heading {
+	margin-bottom:5px;
+}
+li p {
+	margin-top:0;
+}
+
+.ui-icon-question {
+	background:url(../images/icons-question-white.png) no-repeat 50% 50% rgba(0, 0, 0, 0.4);	
+}
+
+.ui-icon-loc {
+	background:url(../images/icons-loc-white.png) no-repeat 50% 50% rgba(0, 0, 0, 0.4);	
+}
+
+ul.schedule-list li {
+	padding-left: 10px !important;
+	width:100%;
+}
+
+ul.schedule-list li h3 span {
+	display: inline-block;
+    width: 80px;
+}
+ul.schedule-list li p {
+    margin-left:81px;
+}
+
+
+#schedule-wrapper {
+	position:relative;
+}
+
+#logo-wrap {
+
+}
+
+img.arrow {
+	display:none;
+}
+
+a.active {
+	background:#f0b334 !important;
+}

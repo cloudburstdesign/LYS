@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+		<link rel="stylesheet" href="css/little-yoga-mobile.css" />
+		
+		
+		
+        <title>Little Yoga Studio</title>
+    </head>
+    <body>
+	<div data-role="page">
+    
+    <div data-role="navbar">
+			<ul>
+			  <li><a href="index.html" data-theme="b" data-icon="calendar" data-iconpos="top"  data-transition="slidedown">Schedule</a></li>
+			  <li><a href="contact.html" data-theme="b" data-icon="info" data-iconpos="top"  data-transition="slidedown">Contact</a></li>
+			  <li><a href="location.html" data-theme="b" data-icon="location" data-iconpos="top"  data-transition="slidedown" class="active">Location</a></li>
+			  <li><a href="about.html" data-theme="b" data-icon="info" data-iconpos="top"  data-transition="slidedown">About App</a></li>
+			</ul>
+		  </div>
+		  <!-- /navbar -->
+
+
+
+	<div data-role="content" class="body-content">
+    	<a href="http://www.littleyogastudio.com" rel="external"><img src="images/LYS-logo.png" width="95%" style="margin-top:10px;" /></a> 
+        <img src="images/quote-shadow.png" width="100%" />
+        <h2>Studio Location</h2>
+  		<p>The little Yoga Studio is located in the Arapahoe Village Shopping Center Between McGuckin Hardware and Sunflower Market</p>
+        
+        <p><a href="http://maps.google.com/?ie=UTF8&ll=40.015734,-105.261018&spn=0.006015,0.009946&t=h&z=17"><img src="http://maps.googleapis.com/maps/api/staticmap?center=40.015874,-105.261657&zoom=16&size=300x300&markers=color:blue%7Clabel:A%7C40.015874,-105.261657&sensor=false" alt="" width="98%" /></a></p>
+
+	</div><!-- /content -->
+
+	<div data-role="footer" class="footer" data-theme="b">
+		<h4>&copy; Little Yoga Studio</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+ 		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
