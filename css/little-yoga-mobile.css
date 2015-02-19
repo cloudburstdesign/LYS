@@ -5,7 +5,7 @@
 body, html {
 	font-size:130%;
 }
-.ui-btn {
+.ui-btn, .ui-navbar li .ui-btn {
 	font-size:100%;
 }
 .ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
@@ -25,6 +25,7 @@ body, html {
 	color:#FFF;
 	text-shadow:1px 1px 0 #555;
 	min-height:400px;
+	background-size:cover;
 }
 
 .about-content a:link {
